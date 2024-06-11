@@ -1,0 +1,3 @@
+#! /usr/bin/dh-exec
+obj-${DEB_HOST_GNU_TYPE}/libSingleApplication.a usr/lib/${DEB_HOST_MULTIARCH}/
+*.h usr/include/singleapplication
